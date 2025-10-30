@@ -5,7 +5,58 @@
     --color-fondo-claro: #F8F4F0; /* Fondo de la página */
     --color-acento: #F4C47C;      /* Ocre/Naranja (Botones) */
     --color-texto-claro: #FFFFFF; /* Blanco */
+}
 
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f6f1e9;
+  color: #3c2a21;
+}
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #3c2a21;
+  font-weight: 500;
+}
+
+.btn {
+  background-color: #c97b41;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: url('../img/hero-bg.jpg') no-repeat center/cover;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #c97b41;
+  border: none;
+  padding: 12px 25px;
+  color: white;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 16px;
+}
 
 
