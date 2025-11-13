@@ -64,11 +64,12 @@ body {
 
 .acciones-usuario {
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .boton-iniciar-sesion {
     color: var(--color-texto-claro);
+    padding: 0.6rem 1.5rem;
     text-decoration: none;
     font-weight: 500;
 }
@@ -80,6 +81,7 @@ body {
     border-radius: 50px;
     text-decoration: none;
     font-weight: 500;
+    
 }
 
 .boton-registrarse:hover {
